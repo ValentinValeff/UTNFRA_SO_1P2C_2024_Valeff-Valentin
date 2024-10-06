@@ -34,3 +34,11 @@ sudo chmod 700 /Examenes-UTN/alumno_3
 
 sudo chown p1c2_2024_P1:p1c2_2024_gProfesores /Examenes-UTN/profesores
 sudo chmod 775 /Examenes-UTN/profesores
+
+sudo -u p1c2_2024_A1 bash -c "whoami > /Examenes-UTN/alumno_1/validar1.txt"
+sudo -u p1c2_2024_A2 bash -c "whoami > /Examenes-UTN/alumno_2/validar2.txt"
+sudo -u p1c2_2024_A3 bash -c "whoami > /Examenes-UTN/alumno_3/validar3.txt"
+sudo -u p1c2_2024_P1 bash -c "whoami > /Examenes-UTN/profesores/validar_profesores.txt"
+
+
+
