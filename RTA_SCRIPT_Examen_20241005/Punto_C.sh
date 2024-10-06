@@ -22,3 +22,15 @@ for LINEA in $(cat "$LISTA" | grep -v ^#); do
 done
 
 IFS=$ANT_IFS
+
+sudo chown p1c2_2024_A1:p1c2_2024_A1 /Examenes-UTN/alumno_1
+sudo chmod 750 /Examenes-UTN/alumno_1
+
+sudo chown p1c2_2024_A2:p1c2_2024_A2 /Examenes-UTN/alumno_2
+sudo chmod 760 /Examenes-UTN/alumno_2
+
+sudo chown p1c2_2024_A3:p1c2_2024_A3 /Examenes-UTN/alumno_3
+sudo chmod 700 /Examenes-UTN/alumno_3
+
+sudo chown p1c2_2024_P1:p1c2_2024_gProfesores /Examenes-UTN/profesores
+sudo chmod 775 /Examenes-UTN/profesores
